@@ -56,7 +56,7 @@ For this particular split and training run, **AttentiveFP** performs best, achie
 ## Test RMSE comparison
 
 <p align="center">
-  <img src="assets/rmse_comparison.png" width="75%">
+  <img src="assets/RMSE comp.png" width="75%">
 </p>
 
 ## Model diagnostics
@@ -67,26 +67,26 @@ Each row shows the learning behavior of one architecture: training/validation lo
 
 | Training vs validation loss | Learning-rate schedule | Test predictions |
 |---|---|---|
-| <img src="assets/gineconv_train_val_loss.png" width="100%"> | <img src="assets/gineconv_lr_schedule.png" width="100%"> | <img src="assets/gineconv_test_predictions.png" width="100%"> |
+| <img src="assets/GINEConv train-val.png" width="100%"> | <img src="assets/GINEConv lrs.png" width="100%"> | <img src="assets/GINEConv test pred.png" width="100%"> |
 
 ### AttentiveFP
 
 | Training vs validation loss | Learning-rate schedule | Test predictions |
 |---|---|---|
-| <img src="assets/attentivefp_train_val_loss.png" width="100%"> | <img src="assets/attentivefp_lr_schedule.png" width="100%"> | <img src="assets/attentivefp_test_predictions.png" width="100%"> |
+| <img src="assets/AttentiveFP train-val.png" width="100%"> | <img src="assets/AttentiveFP lrs.png" width="100%"> | <img src="assets/AttentiveFP test pred.png" width="100%"> |
 
 ### NNConv
 
 | Training vs validation loss | Learning-rate schedule | Test predictions |
 |---|---|---|
-| <img src="assets/nnconv_train_val_loss.png" width="100%"> | <img src="assets/nnconv_lr_schedule.png" width="100%"> | <img src="assets/nnconv_test_predictions.png" width="100%"> |
+| <img src="assets/NNConv train-val.png" width="100%"> | <img src="assets/NNConv lrs.png" width="100%"> | <img src="assets/NNConv test pred.png" width="100%"> |
 
 ## Sample molecule visualization
 
 The notebook also uses **RDKit** to visualize a molecule from the ESOL dataset and connect the chemical structure to the graph representation used by PyTorch Geometric.
 
 <p align="center">
-  <img src="assets/sample_molecule.png" width="55%">
+  <img src="assets/sample molecule.png" width="55%">
 </p>
 
 ## Repository structure
