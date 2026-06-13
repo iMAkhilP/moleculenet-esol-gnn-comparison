@@ -86,7 +86,7 @@ Each row shows the learning behavior of one architecture: training/validation lo
 The notebook also uses **RDKit** to visualize a molecule from the ESOL dataset and connect the chemical structure to the graph representation used by PyTorch Geometric.
 
 <p align="center">
-  <img src="assets/sample molecule.png" width="55%">
+  <img src="assets/Sample molecule.png" width="55%">
 </p>
 
 ## Repository structure
